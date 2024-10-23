@@ -1,13 +1,14 @@
 import './App.css'
+import Blogs from './component/Header/Blogs/Blogs'
+import Header from './component/Header/Header'
 
 function App() {
 
 
   return (
     <>
-      <div>
-        <h1 className='font-bold text-6xl bg-red-500'>Knowledge Cage</h1>
-      </div>
+    <Header></Header>
+  <Blogs></Blogs>
     </>
   )
 }
